@@ -2,9 +2,10 @@
 The IPv4_to_IPv6_address_generator helper tool allows you to convert an IPv4 address to an IPv6 Link Local one. To do so it first pings the provided IPv4 address to ensure that the corresponding MAC is cached in the ARP table. After that is extracts the MAC and converts it to the Link Local IPv6 address based on RFC2464. Finally you can select if you want to run nmap an the newly generated address.
 
 # Usage
-./IPv4_to_IPv6_address_generator.py <<IP address to convert>> [network portion (defaults to fe80)]
-
+```
+./IPv4_to_IPv6_address_generator.py <IP address to convert> [network portion (defaults to fe80)]
 Example: ./IPv4_to_IPv6_address_generator.py 10.0.0.138
+```
 
 # Sample Output
 ```
