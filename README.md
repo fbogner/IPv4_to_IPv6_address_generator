@@ -7,6 +7,7 @@ The IPv4_to_IPv6_address_generator helper tool allows you to convert an IPv4 add
 Example: ./IPv4_to_IPv6_address_generator.py 10.0.0.138
 
 # Sample Output
+```
 ./IPv4_to_IPv6_address_generator.py 10.0.0.138
 Will ping IP 10.0.0.138 to ensure that MAC is in ARP table
 Will search of MAC of IP 10.0.0.138 in ARP table
@@ -21,3 +22,4 @@ Will generate IPv6 address of EUI a6526ffffe447e69 in network fe80
 ==============================================
 IPv6 Address: fe80::a652:6fff:fe44:7e69
 ==============================================
+```
